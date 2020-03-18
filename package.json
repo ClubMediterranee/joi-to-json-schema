@@ -1,5 +1,5 @@
 {
-  "name": "@yeongjet/joi-to-json-schema",
+  "name": "joi-to-json-schema",
   "version": "0.0.2",
   "description": "Joi -> JSON Schema Converter (support joi v16.0)",
   "main": "lib/index.js",
@@ -9,11 +9,12 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yeongjet/joi-to-json-schema.git"
+    "url": "https://github.com/ClubMediterranee/joi-to-json-schema.git"
   },
   "keywords": [
     "joi",
@@ -34,9 +35,9 @@
   ],
   "license": "Apache2",
   "bugs": {
-    "url": "https://github.com/lightsofapollo/joi-to-json-schema/issues"
+    "url": "https://github.com/ClubMediterranee/joi-to-json-schema/issues"
   },
-  "homepage": "https://github.com/lightsofapollo/joi-to-json-schema",
+  "homepage": "https://github.com/ClubMediterranee/joi-to-json-schema",
   "devDependencies": {
     "@types/hapi__joi": "^16.0.4",
     "@types/jest": "^24.0.24",
