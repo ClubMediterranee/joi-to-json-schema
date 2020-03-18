@@ -1,5 +1,5 @@
 {
-  "name": "@clubmed/joi-to-json-schema",
+  "name": "@yeongjet/joi-to-json-schema",
   "version": "0.0.2",
   "description": "Joi -> JSON Schema Converter (support joi v16.0)",
   "main": "lib/index.js",
